@@ -1,0 +1,245 @@
+
+:root{
+    --white:#fff;
+    --green: rgb(13, 242, 5);
+    --black: #000000ff;
+    --baby-powder: #fffffcff;
+    --khaki: #beb7a4ff;
+    --red-pantone: #e71d36ff;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.color{
+    color:var(--red-pantone);
+}
+html{
+    font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+}
+header{
+    width: 100%;
+    height: 100px;
+    padding: 12px;
+}
+nav{
+    width: 90%;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+header a{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--black);
+
+}
+.logo-header{
+    display: flex;
+    width: 200px;
+    height: 80px;
+    margin: 0 auto;
+}
+.img-main{
+    width: 200px;
+    height: 80px;
+}
+.img-whatsapp-contact{
+    width: 30px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:4px
+}
+.section-main{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    padding: 30px 0;
+}
+h1{
+    font-size: 4.2rem;
+    padding: 0 12px;
+}
+.section-main--info{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.section-main--info p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 20px 0;
+    padding: 30px;}
+
+.section-main--img img{
+    width: 300px;
+}
+.fondo2{
+    background: -webkit-linear-gradient(90deg, #9aca22,#56a631,#098036);
+    background: linear-gradient(90deg, #9aca22,#56a631,#098036);
+}
+.fondo{
+    background: -webkit-linear-gradient(90deg, #fafafa,#beb7a4ff);
+    background: linear-gradient(90deg, #fafafa,#beb7a4ff);
+}
+
+.boton{
+    display: grid;
+    place-content: center;
+    width: 200px;
+    height: 50px;
+    font-size: 2rem;
+    color: var(--white);
+    font-weight: 500;
+    background: -webkit-linear-gradient(90deg, #9edd57,#36b32d,#279324);
+    background: linear-gradient(90deg, #9edd57,#36b32d,#279324);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+/* secction de beneficios */
+
+.section-beneficios{
+    width: 100%;
+    height: auto;
+
+}
+.section-beneficios-img{
+    width: inherit;
+    display: grid;
+    place-content: center;
+    padding: 20px;
+}
+.section-beneficios-img-terapia{
+    width: 250px;
+    border-radius: 12px;
+}
+
+.section-beneficios-info{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 12px;
+    color: var(--white);
+    padding: 0px 20px 20px 20px;
+}
+.section-beneficios-info h2{
+    font-size: 3rem;
+}
+.section-beneficios-info > p{
+    width: inherit;
+    display: grid;
+    grid-template-columns: 26px 1fr;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.section-beneficios-info p img {
+    width: 26px;
+}
+
+.section-services{
+    padding: 20px;
+}
+.section-services h2{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 12px;
+}
+.section-services p{
+    text-align: center;
+    font-size: 1.6rem;
+    padding-bottom: 12px;
+    font-weight: 300;
+}
+.section-services-ayuda{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 12px 0px;
+}
+.section-services-ayuda article{
+    display: grid;
+    justify-items: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+article img{
+    width: 40px;
+}
+.botonSinfondo  {
+    display: grid;
+    place-content: center;
+    width: 200px;
+    height: 50px;
+    font-size: 2rem;
+    color: var(--white);
+    font-weight: 500;
+    border:1px solid var(--white);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.section-services-info{
+    width:300px;
+    background: -webkit-linear-gradient(90deg, #9edd57,#36b32d,#279324);
+    background: linear-gradient(90deg, #9edd57,#36b32d,#279324);
+    display: grid;
+    justify-items: center;
+    padding: 12px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0 auto;
+    color: var(--white);
+    text-align: center;
+}
+.section-services-info h3{
+    font-size: 2.4rem;
+    
+}
+.biografia{
+    text-align: center;
+    color: var(--white);
+    padding: 20px;
+}
+.biografia h2{
+    font-size: 3rem;
+    padding-top: 12px;
+}
+.biografia p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding-top: 12px;
+}
+.biografia img{
+    width: 300px;
+    padding-top: 12px;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center
+}
+footer img{
+    width: 32px;
+}
